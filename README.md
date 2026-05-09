@@ -95,8 +95,8 @@ exec-agent/
 ## Milestones
 
 - [x] **M1** — Agent soul, identity, and personality (SOUL.md + AGENTS.md)
-- [ ] **M2** — Daily briefing skill
-- [ ] **M3** — Context logger skill
+- [x] **M2** — Daily briefing skill
+- [x] **M3** — Context logger skill
 - [ ] **M4** — Google Workspace skill
 - [ ] **M5** — Knowledge base / RAG skill
 - [ ] **M6** — Catch-up briefing skill
@@ -174,8 +174,8 @@ See [docs/setup.md](docs/setup.md) for full installation and configuration instr
 ## Статус milestones
 
 - [x] **M1** — Душа агента, идентичность и личность (SOUL.md + AGENTS.md)
-- [ ] **M2** — Навык ежедневного брифинга
-- [ ] **M3** — Навык журнала контекста
+- [x] **M2** — Навык ежедневного брифинга
+- [x] **M3** — Навык журнала контекста
 - [ ] **M4** — Навык Google Workspace
 - [ ] **M5** — База знаний / RAG
 - [ ] **M6** — Навык сводки-догонялки

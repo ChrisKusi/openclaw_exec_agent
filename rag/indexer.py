@@ -89,7 +89,10 @@ def build_index(reset=False, single_file=None):
     col = client.get_or_create_collection(
         name=COLLECTION,
         embedding_function=ef,
-        metadata={"description": "NAMI personal knowledge base"}
+        metadata={
+            "description": "NAMI personal knowledge base",
+            "hnsw:space": "cosine"
+        }
     )
 
     docs = collect_docs(single_file)

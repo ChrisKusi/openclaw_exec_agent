@@ -66,7 +66,7 @@ def search(query: str, n_results: int = 5, doc_type: str = None):
     print("━" * 60)
 
     for i, (doc, meta, dist) in enumerate(zip(docs, metas, distances), 1):
-        relevance = round((1 - dist) * 100, 1)
+        relevance = round((1 / (1 + dist)) * 100, 1)
         filename  = meta.get("filename", "unknown")
         dtype     = meta.get("type", "document")
         preview   = doc[:300].replace("\n", " ").strip()

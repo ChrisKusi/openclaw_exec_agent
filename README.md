@@ -1,4 +1,0 @@
-openclaw.json
-*.env
-.env
-**/auth-profiles.json

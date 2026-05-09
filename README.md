@@ -98,7 +98,7 @@ exec-agent/
 - [x] **M2** — Daily briefing skill
 - [x] **M3** — Context logger skill
 - [x] **M4** — Google Workspace skill
-- [ ] **M5** — Knowledge base / RAG skill
+- [x] **M5** — Knowledge base / RAG skill
 - [ ] **M6** — Catch-up briefing skill
 - [ ] **M7** — Telegram full integration
 - [ ] **M8** — n8n automation bridge
@@ -177,7 +177,7 @@ See [docs/setup.md](docs/setup.md) for full installation and configuration instr
 - [x] **M2** — Навык ежедневного брифинга
 - [x] **M3** — Навык журнала контекста
 - [x] **M4** — Навык Google Workspace
-- [ ] **M5** — База знаний / RAG
+- [x] **M5** — База знаний / RAG
 - [ ] **M6** — Навык сводки-догонялки
 - [ ] **M7** — Полная интеграция с Telegram
 - [ ] **M8** — Мост автоматизации n8n

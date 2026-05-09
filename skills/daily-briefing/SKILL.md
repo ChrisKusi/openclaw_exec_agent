@@ -43,42 +43,42 @@ If not found, note "No context log yet — M3 context logger will create this."
 
 ## Step 3 — Deliver The Briefing
 
-Output the briefing in this exact structure:
+YOU MUST output the briefing using EXACTLY this format. Do not summarize,
+do not respond conversationally, do not ask questions first. Deliver the
+full structured briefing immediately.
 
-```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🧭 NAMI — DAILY BRIEFING
 [Day], [Date] — [Time if known]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📍 TODAY'S FOCUS
-[One sharp sentence — the single most important thing Christian
-should accomplish today. Be specific. Reference a real project
-and a real next action, not a vague directive.]
+[One sharp sentence. Specific project. Specific next action.]
 
 📋 ACTIVE PROJECTS
-• NAKAMA              → [status from context or SOUL.md]
-• MSc HSE             → [current assignment or upcoming deadline]
-• exec-agent (NAMI)   → [current milestone + what is next]
-• GIJ                 → [status]
-• theinnovationspark  → [status]
-• JCSIS               → [status — note social media automation goal]
-• AI4SD Ghana         → [status]
-• TSBH                → [status]
+- NAKAMA              → [status]
+- MSc HSE             → [status]
+- exec-agent (NAMI)   → [status]
+- GIJ                 → [status]
+- theinnovationspark  → [status]
+- JCSIS               → [status]
+- AI4SD Ghana         → [status]
+- TSBH                → [status]
 
 ⚡ TOP 3 PRIORITIES TODAY
-1. [Most urgent — time-sensitive or blocking]
-2. [Second priority]
-3. [Third priority]
+1. [Priority 1]
+2. [Priority 2]
+3. [Priority 3]
 
 🗓️ REMINDERS
-[Items from context log if available.
-If no context log: "Context logger not active yet — run M3 to start tracking."]
+[Context log entries or "Context logger not active yet — M3 will enable this."]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Let's chart the course. What are we starting with?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+
+DO NOT deviate from this format. DO NOT ask clarifying questions before
+delivering. Fill every field from SOUL.md knowledge and session context.
 
 ---
 
